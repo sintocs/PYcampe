@@ -1,0 +1,16 @@
+{
+  "name": "pycamp-platform",
+  "private": true,
+  "version": "0.2.0",
+  "description": "PyCamp — интерактивная платформа для изучения Python",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "typecheck": "npm --prefix frontend run typecheck",
+    "lint": "npm --prefix frontend run lint",
+    "test": "npm --prefix frontend run test",
+    "test:e2e": "npm --prefix frontend run test:e2e",
+    "backend:dev": "python -m uvicorn app.main:app --reload --app-dir backend",
+    "backend:test": "python -m pytest backend/tests"
+  }
+}

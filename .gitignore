@@ -1,0 +1,17 @@
+node_modules/
+frontend/node_modules/
+frontend/dist/
+backend/.venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/.pytest_cache/
+backend/.coverage
+*.py[cod]
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+playwright-report/
+test-results/
+.DS_Store
